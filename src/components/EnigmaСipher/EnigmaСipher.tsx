@@ -109,7 +109,7 @@ export default function Enigma() {
 
     return (
         <div className="container">
-            <h2>Enigma Cipher</h2>
+            <h2>Шифр Энигма</h2>
 
             <textarea rows={4} value={text} onChange={(e) => setText(e.target.value)} placeholder="Введите текст" />
 
