@@ -10,7 +10,7 @@ function App() {
         <Router>
             <div className="menu">
                 <Link to="/home">Главная</Link> | <Link to="/caesar">Шифр Цезаря</Link> | <Link to="/enigma">Шифр Энигма</Link> |{" "}
-                <Link to="/block">Блочный шифр</Link>
+                <Link to="/block">DES-блочный шифр</Link>
             </div>
 
             <Routes>
